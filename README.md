@@ -1,6 +1,6 @@
 # CogView3-Plus
 
-## 🧠 简介 Introduction
+## 简介 
 
 **CogView3-Plus** 是基于清华大学提出的 [CogView3](https://arxiv.org/abs/2403.05121) 扩展改进的版本，聚焦于更高效的文本到图像生成（Text-to-Image Generation）任务。原始 CogView3 引入了 **Relay Diffusion** 技术，实现了更精细且更快速的文本图像生成。
 
@@ -24,12 +24,12 @@ CogView3-Plus/
 ├── T5
 │   ├── ……
 ├── vae
-    └──imagekl_ch16.pt
+│    └──imagekl_ch16.pt
 
 
 ## 🚀 快速开始 Quick Start
 
-### 1. 克隆仓库
+1. 克隆仓库
 
 ```bash
 git clone https://github.com/choucisan/CogView3-Plus.git
@@ -54,9 +54,6 @@ CogView3-Plus/
 
 
 
-
-
-
 4. 文本生成图像
 文本输入在configs/test.txt
 运行：
@@ -64,7 +61,7 @@ python sample_dit.py --base configs/cogview3_plus.yaml
 
 
 
-✍️引用 Citation
+ Citation
 @article{zheng2024cogview3,
   title={Cogview3: Finer and faster text-to-image generation via relay diffusion},
   author={Zheng, Wendi and Teng, Jiayan and Yang, Zhuoyi and Wang, Weihan and Chen, Jidong and Gu, Xiaotao and Dong, Yuxiao and Ding, Ming and Tang, Jie},
@@ -73,10 +70,5 @@ python sample_dit.py --base configs/cogview3_plus.yaml
 }
 
 
-📫 联系 Contact[]
+联系方式[choucisan@gmail.com]
 
-
-- 是否支持 Web UI（例如 Gradio）？
-- 想部署在哪些平台（例如 Hugging Face、Colab、Docker）？
-
-需要我一键帮你生成 `requirements.txt` 吗？
