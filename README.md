@@ -70,5 +70,5 @@ python sample_dit.py --base configs/cogview3_plus.yaml
 }
 
 
-联系方式[choucisan@gmail.com]
+联系方式：[choucisan@gmail.com]
 
