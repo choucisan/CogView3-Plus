@@ -68,15 +68,13 @@ python sample_dit.py --base configs/cogview3_plus.yaml
 
 ---
 
-引用（Citation）
-
+Citation
 ```bibtex
 @article{zheng2024cogview3,
   title={Cogview3: Finer and faster text-to-image generation via relay diffusion},
   author={Zheng, Wendi and Teng, Jiayan and Yang, Zhuoyi and Wang, Weihan and Chen, Jidong and Gu, Xiaotao and Dong, Yuxiao and Ding, Ming and Tang, Jie},
   journal={arXiv preprint arXiv:2403.05121},
-  year={2024}
-}
+  year={2024}}
 ```
 
 ---
